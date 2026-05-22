@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recupero MIM</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="card">
+        <div class="brand">
+          <div class="brand-mark">MIM</div>
+          <h1>Recupero de contraseña</h1>
+        </div>
+
+        <p class="lead">
+          Esta página está diseñada para ser utilizada como destino público de los enlaces de recuperación de contraseña de Supabase.
+        </p>
+        <p>
+          Configurá tu aplicación para usar un <strong>redirectTo</strong> público hacia:
+          <code>https://ian9franco.github.io/recuperoMIM/reset-password.html</code>
+        </p>
+
+        <div class="section">
+          <h2>Cómo funciona</h2>
+          <ul>
+            <li>El usuario pide recuperar contraseña en tu app.</li>
+            <li>Supabase envía el enlace a un dominio público.</li>
+            <li>El usuario abre la página y cambia su contraseña.</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Instrucciones</h2>
+          <ol>
+            <li>Reemplazá los valores en <code>js/reset-password.js</code> con tu Supabase URL y ANON KEY.</li>
+            <li>Subí esta carpeta a un repo independiente.</li>
+            <li>Habilitá GitHub Pages para el branch principal.</li>
+            <li>Usá el enlace público en tu <code>resetPasswordForEmail</code>.</li>
+          </ol>
+        </div>
+
+        <a class="button" href="./reset-password.html">Ir a reset-password</a>
+      </main>
+    </div>
+  </body>
+</html>
