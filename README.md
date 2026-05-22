@@ -16,13 +16,15 @@ Este es un sitio estático independiente para la recuperación de contraseña de
 
 ```ts
 await supabase.auth.resetPasswordForEmail(email, {
-  redirectTo: "https://ian9franco.github.io/recuperoMIM/reset-password.html",
+  redirectTo: "https://recupero-mim-qbfb.vercel.app/reset-password.html",
 });
 ```
 
 3. Subí este repositorio a `https://github.com/Ian9Franco/recuperoMIM`.
 4. Activá GitHub Pages en la rama principal (`main`) y usá la carpeta raíz.
 5. El sitio público quedará disponible en `https://ian9franco.github.io/recuperoMIM/reset-password.html`.
+
+> Ya podés desplegar también en Vercel. El sitio actual está disponible en `https://recupero-mim-qbfb.vercel.app/reset-password.html`.
 
 ## Notas
 
